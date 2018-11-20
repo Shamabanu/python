@@ -1,0 +1,10 @@
+m=input()
+n=input()
+p=len(m)
+q=len(n)
+if(p>q):
+    print(m)
+elif(q>p):
+    print(n)
+else:
+    print(m)

@@ -1,0 +1,2 @@
+m=input()
+print(m+".")

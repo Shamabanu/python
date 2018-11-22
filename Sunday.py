@@ -1,0 +1,15 @@
+n=input()
+if(n=="Sunday"):
+    print("yes")
+if(n=="Monday"):
+    print("no")
+if(n=="Tuesday"):
+    print("no")
+if(n=="Wednesday"):
+    print("no")
+if(n=="Thursday"):
+    print("no")
+if(n=="Friday"):
+    print("no")
+if(n=="Saturday"):
+    print("no")

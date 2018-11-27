@@ -1,3 +1,3 @@
-n=str(input())
-p=len(n)
-print(p)
+N=str(input())
+P=len(N)
+print(P)

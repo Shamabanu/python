@@ -1,6 +1,6 @@
-n=int(input())
-m=input()
-p="".join(reversed(m))
+N=int(input())
+S=input()
+P="".join(reversed(S))
 for i in "aeiouAEIOU":
-    p=p.replace(i,"")
-print(p)
+    P=P.replace(i,"")
+print(P)

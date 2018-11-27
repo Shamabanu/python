@@ -1,4 +1,4 @@
-n=(raw_input())
+n=(input())
 m=len(n)
 c=0
 for i in range(0,m):

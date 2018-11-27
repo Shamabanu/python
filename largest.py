@@ -1,12 +1,12 @@
-a=int(input())
-b=int(input())
-c=int(input())
-if(a>b):
-    if(a>c):
-        print(a)
+A=int(input())
+B=int(input())
+C=int(input())
+if(A>B):
+    if(A>C):
+        print(A)
     else:
-        print(c)
-elif(b>c):
-    print(b)
+        print(C)
+elif(B>C):
+    print(B)
 else:
-    print(c)
+    print(C)

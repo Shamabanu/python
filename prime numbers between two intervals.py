@@ -1,5 +1,5 @@
-lower = int(input())
-upper = int(input())
+lower = int(raw_input())
+upper = int(raw_input())
 for num in range(lower,upper):
    if num > 1:
        for i in range(2,num):

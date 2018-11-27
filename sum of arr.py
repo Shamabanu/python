@@ -1,6 +1,6 @@
-n=int(input())
+N=int(input())
 a=[]
-for i in range(0,n):
+for i in range(0,N):
     a.append(int(input()))
-p=sum(a)
-print(p)
+P=sum(a)
+print(P)

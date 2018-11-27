@@ -1,3 +1,3 @@
-s = 'I am having a very nice day.'
-m=len(s.split())
-print(m)
+c = (raw_input())
+n=len(c.split())
+print(n)

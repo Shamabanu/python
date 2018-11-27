@@ -1,7 +1,7 @@
 N=int(input())
 K=int(input())
-a=[]
+arr=[]
 for i in range(0,N):
-    a.append(int(input()))
-a.sort()
-print(a[N-K])
+    arr.append(int(input()))
+arr.sort()
+print(arr[N-K])

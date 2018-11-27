@@ -1,5 +1,5 @@
-n=int(input())
-if(n%4==0):
-    print("Yes")
+N=int(input())
+if(N%4==0):
+    print("yes")
 else:
-    print("No")
+    print("no")

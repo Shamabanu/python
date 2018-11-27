@@ -12,4 +12,4 @@ if(m=="Thursday"):
 if(m=="Friday"):
     print("no")
 if(m=="Saturday"):
-    print("no")
+    print("yes")

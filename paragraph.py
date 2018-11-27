@@ -1,9 +1,9 @@
-n=(raw_input())
-m=len(n)
-c=1
-for i in range(0,m):
-    if(n[i]=="."):
-        c=c+1
+l=(raw_input())
+p=len(l)
+s=1
+for i in range(0,p):
+    if(l[i]=="."):
+        s=s+1
     else:
-        c=c
-print(c)
+        s=s
+print(s)

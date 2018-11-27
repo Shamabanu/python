@@ -1,8 +1,8 @@
-m=input()
-n=input()
+M=input()
+N=input()
 start = 0
-while start < min(len(m), len(n)):
-    if m[start] != n[start]:
+while start < min(len(M), len(N)):
+    if M[start] != N[start]:
         break
     start += 1
-print(m[:start])
+print(M[:start])

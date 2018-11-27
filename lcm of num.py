@@ -1,11 +1,11 @@
-x=int(input())
-y=int(input())
-if(x>y):
-    g=x
+L=int(input())
+R=int(input())
+if(L>R):
+    g=L
 else:
-    g=y
+    g=R
 while(True):
-    if((g%x==0) and (g%y==0)):
+    if((g%L==0) and (g%R==0)):
         l=g
         break
     g+=1

@@ -1,4 +1,4 @@
-n=int(input())
-m=str(n)
-p=len(m)
-print(p)
+N=int(input())
+M=str(N)
+P=len(M)
+print(P)

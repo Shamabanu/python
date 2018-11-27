@@ -1,5 +1,5 @@
-n=str(input())
-if(n.isalpha()):
+N=(input())
+if(N.isalpha()):
     print("Alphabet")
 else:
     print("No")

@@ -1,6 +1,6 @@
-N=int(input())
+M=int(input())
 a=[]
-for i in range(0,N):
+for x in range(0,M):
     a.append(int(input()))
-n=max(a)
-print(n)
+m=max(a)
+print(m)

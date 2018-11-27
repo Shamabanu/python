@@ -1,10 +1,10 @@
-m=input()
-n=input()
-p=len(m)
-q=len(n)
+M=input()
+N=input()
+p=len(M)
+q=len(N)
 if(p>q):
-    print(m)
+    print(M)
 elif(q>p):
-    print(n)
+    print(N)
 else:
-    print(m)
+    print(M)

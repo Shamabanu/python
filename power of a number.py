@@ -1,4 +1,5 @@
-N=int(input())
-M=int(input())
-P=N**M
+i,j = input().split()
+i = int(i)
+j = int(j)
+P=i**j
 print(P)

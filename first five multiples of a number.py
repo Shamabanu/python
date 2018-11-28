@@ -1,5 +1,5 @@
-def multiple(n):  
-    a = range(n, (5 * n)+1, n) 
+def multiple(N):  
+    a = range(N, (5 * N)+1, N) 
     print(*a)  
-n = int(input())
-multiple(n)
+N = int(input())
+multiple(N)

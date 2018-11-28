@@ -1,5 +1,5 @@
-i,j = input().split()
-i = int(i)
-j = int(j)
-P=i**j
+m,n = input().split()
+m = int(m)
+n = int(n)
+P=m**n
 print(P)

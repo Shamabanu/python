@@ -1,14 +1,14 @@
-lower = int(input())
-upper = int(input())
+lower,upper=input().split()
+lower=int(lower)
+upper=int(upper)
+for num in range(lower+1, upper):
+    order = len(str(num))
+    sum = 0
+    temp = num
+    while(temp > 0):
+        digit = temp % 10
+        sum += digit ** order
+        temp //= 10
 
-for num in range(lower, upper + 1):
-   order = len(str(num))
-   sum = 0
-   temp = num
-   while temp > 0:
-       digit = temp % 10
-       sum += digit ** order
-       temp //= 10
-
-   if num == sum:
-       print(num)
+    if(num == sum):
+        print(num,end=" ")

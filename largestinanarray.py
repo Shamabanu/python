@@ -1,6 +1,5 @@
-M=int(input())
-a=[]
-for x in range(0,M):
-    a.append(int(input()))
-m=max(a)
+n = int(input())
+arr = input()   
+l = list(map(int,arr.split(' ')))
+m=max(l)
 print(m)

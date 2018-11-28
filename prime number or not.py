@@ -1,12 +1,12 @@
-num = int(input())
-if num > 1:
+Num = int(input())
+if Num > 1:
 
-   for i in range(2,num):
-       if (num % i) == 0:
-           print("No")
+   for i in range(2,Num):
+       if (Num % i == 0):
+           print("no")
            break
    else:
-       print("Yes")
+       print("yes")
     
 else:
-   print("No")
+   print("no")

@@ -1,6 +1,6 @@
-len=int(input())
-if len > 0:
-    len = "%d:%02d" % (len / 60, len % 60)
+Len=int(input())
+if(Len > 0):
+    Len = "%d %02d" % (Len / 60, Len % 60)
 else:
-    len = ""
-print(len)
+    Len = ""
+print(Len)

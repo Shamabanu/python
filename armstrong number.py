@@ -1,12 +1,12 @@
-n = (input())
+N = (input())
 arm_num = 0
-val = int(n)
-while val > 0:
+v = int(N)
+while(v > 0):
     
-    reminder=val % 10
+    reminder=v % 10
     arm_num += reminder ** 3
-    val //= 10
-if int(n) == arm_num:
+    v //= 10
+if int(N) == arm_num:
         print("yes")
 else:
         print("no")

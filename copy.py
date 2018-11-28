@@ -1,3 +1,3 @@
-n=input()
-m=n.title()
-print(m)
+N=input()
+M=N.title()
+print(M)

@@ -1,6 +1,6 @@
-s=input()
+str=input()
 try:
-    float(s)
+    float(str)
     print("yes")
 except ValueError:
     print("no")

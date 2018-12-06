@@ -1,0 +1,5 @@
+n = int(input())
+a = input()   
+l = list(map(int,a.split(' ')))
+m = sorted(l)
+print(m)

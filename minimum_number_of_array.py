@@ -1,6 +1,5 @@
-N=int(raw_input())
-a=[]
-for i in range(0,N):
-    a.append(int(raw_input()))
-n=min(a)
-print(n)
+n = int(input())
+arr = input()   
+l = list(map(int,arr.split(' ')))
+m=min(l)
+print(m)

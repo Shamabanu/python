@@ -1,0 +1,5 @@
+n = int(input())
+arr = input()   
+l = list(map(int,arr.split(' ')))
+m = sorted(l)
+print(m)

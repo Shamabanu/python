@@ -9,5 +9,5 @@ for i in range(c):
             c=c-1
         else:
             break
-d="".join(b)
-print (d)
+m="".join(b)
+print (m)

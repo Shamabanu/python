@@ -1,6 +1,5 @@
-N=int(input())
-a=[]
+N = int(input())
+a = input()
+l = list(map(int,a.split(' ')))
 for i in range(0,N):
-    a.append(int(input()))
-for i in range(0,N):
-    print(a[i], i )
+    print(l[i], i )

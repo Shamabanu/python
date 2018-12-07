@@ -1,4 +1,4 @@
-i=int(input())
+k=int(input())
 l=input().split()
 a=[]
 s=len(l)

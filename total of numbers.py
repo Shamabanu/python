@@ -1,6 +1,6 @@
 N=int(input())
-arr=[]
-for i in range(0,N):
-    a.append(int(input()))
-m=sum(a)
-print(m)
+a=input().split()
+s=0
+for x in a:
+    s=s+int(x)
+print(s)

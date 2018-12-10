@@ -1,5 +1,5 @@
-y,x=input().split()
-if(x in y):
+h,s=input().split()
+if(s in h):
     print("yes")
 else:
     print("no")

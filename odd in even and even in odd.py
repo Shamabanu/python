@@ -1,8 +1,8 @@
 num=int(input())
 b=input().split()
-c=len(b)
+m=len(b)
 k=[]
-for i in range(0,c):
+for i in range(0,m):
 	if i%2==0:
 		b[i]=int(b[i])
 		if b[i]%2!=0:

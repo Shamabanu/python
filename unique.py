@@ -1,6 +1,6 @@
 num=int(input())
-arr=input().split()
-a=" ".join(map(str,arr))
+ar=input().split()
+a=" ".join(map(str,ar))
 m=[]
 for x in a:
     if(x not in m):

@@ -1,9 +1,12 @@
-n,m=input().split()
-n=int(n)
+m,n=(input().split())
 m=int(m)
-if(n==1 and m==1):
-    print(1)
-for i in range(2,100):
-    if(n%i==0 and m%i==0):
-        print(i)
-
+n=int(n)
+  
+if m > n: 
+    small = n 
+else: 
+    small = m 
+for i in range(1, small+1): 
+    if((m % i == 0) and (n % i == 0)): 
+        gcd = i 
+print(gcd) 

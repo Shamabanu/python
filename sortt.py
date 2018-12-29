@@ -1,8 +1,8 @@
-k=int(input())
+n=int(input())
 nar=[]
-for i in range(k):
+for j in range(n):
     nar.extend(input().split())
 nar=[int(x) for x in nar]
 nar.sort()
-for i in nar: print(i,end=" ")
+for j in nar: print(j,end=" ")
 

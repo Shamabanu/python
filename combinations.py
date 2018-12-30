@@ -7,6 +7,7 @@ for x in range(0,2**m):
     while(len(k)!=m):
         k='0'+k
     if(x!=(2**m)-1):
-        print(k,end=("\n"))
+        print(k+"\t")
     else:
         print(k)
+

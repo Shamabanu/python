@@ -1,0 +1,6 @@
+N,K=(input()).split()
+N=int(N)
+K=int(K)
+a=list(map(int,input().split()))
+b=sorted(a)
+print(b[K-1])

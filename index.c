@@ -4,18 +4,18 @@
 #include <stdlib.h>
 int main() 
 {
-  int a,*b,n=0;
-  scanf("%d",&a);
-  b=(int*)malloc(sizeof(int)*a);
-  for(int i=0;i<a;i++)
+  int q,*b,n=0;
+  scanf("%d",&q);
+  b=(int*)malloc(sizeof(int)*q);
+  for(int i=0;i<q;i++)
   {
     scanf("%d",&b[i]);
   }  
-  for(int i=0;i<(a-2);i++)
+  for(int i=0;i<(q-2);i++)
   {
-    for(int j=i+1;j<(a-1);j++)
+    for(int j=i+1;j<(q-1);j++)
     {
-      for(int k=j+1;k<a;k++)
+      for(int k=j+1;k<q;k++)
       {
         if(b[j]>b[i] && b[k]>b[j])
         {

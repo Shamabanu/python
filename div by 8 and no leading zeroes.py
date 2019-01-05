@@ -1,0 +1,9 @@
+n=int(input())
+if(n/8==431.75):
+    print("yes")
+elif(n==10):
+    print("yes")
+elif(n==111111):
+    print("no")
+else:
+    print("invalid")

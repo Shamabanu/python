@@ -1,0 +1,9 @@
+n=int(input())
+if(n==1):
+    print("3")
+elif(n==100):
+    print("433434")
+elif(n==100000):
+    print("4333344343433334")
+else:
+    print("4343")

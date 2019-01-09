@@ -1,4 +1,4 @@
-Num=int(input())
+N=int(input())
 l=list(map(int,input().split()))
 p=l[0]
 k=[]
@@ -8,7 +8,7 @@ for i in range(1,len(l)):
     k.append(p)
 k.append(l[len(l)-1])
 a=l[len(l)-1]
-for j in range(len(l)-2,-1,-1):
-    a=a+l[j] 
+for x in range(len(l)-2,-1,-1):
+    a=a+l[x] 
     k.append(a)
 print(max(k))

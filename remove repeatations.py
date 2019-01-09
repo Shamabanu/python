@@ -1,8 +1,8 @@
 s=input()
-arr=[]
+a=[]
 for x in s:
-    if(x not in arr):
-        arr.append(x)
-n=''.join(arr)
-print(n)
+    if(x not in a):
+        a.append(x)
+m=''.join(a)
+print(m)
 

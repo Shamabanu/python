@@ -1,6 +1,6 @@
-s=input()
+sum=input()
 m=input()
-if(m in s):
-    print(s.index(m[0]))
+if(m in sum):
+    print(sum.index(m[0]))
 else:
     print("-1")

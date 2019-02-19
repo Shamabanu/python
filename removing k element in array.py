@@ -8,4 +8,5 @@ if(len(c)>0):
     k=" ".join(map(str,c))
     print(k)
 else:
-    print(empty)
+    print("empty")
+

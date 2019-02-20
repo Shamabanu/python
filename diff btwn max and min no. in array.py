@@ -1,0 +1,5 @@
+n=int(input())
+arr=input().split()
+p=int(max(arr))
+q=int(min(arr))
+print(p-q)

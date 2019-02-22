@@ -1,9 +1,13 @@
-a,b=input().split()
-a=int(a)
-b=int(b)
-c=list(str(a))
-e=b
-while e>0:
-    e=e-1
-    del(c[e])
-print(''.join(c))
+m,n=input().split()
+n=int(n)
+c=len(m)
+d1=[]
+for i in range(0,c):
+	s=m[i]
+	d1.append(s)
+w=c-n
+t=[]
+for j in range(n,c):
+	s=d1[j]
+	t.append(s)
+print("".join(t))

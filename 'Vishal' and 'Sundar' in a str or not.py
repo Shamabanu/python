@@ -1,5 +1,7 @@
-sen=input()
-if("Vishal" in sen and "Sundar" in sen):
+n=str(input())
+p="Vishal"
+q="Sundar"
+if(p and q in n):
     print("yes")
 else:
     print("no")
